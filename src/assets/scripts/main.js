@@ -56,7 +56,7 @@ async function fetchItems() {
 
 /**
  * Adds the Fetched procut items to the webpage
- */
+ */ 
 function populatePage() {
   if (!items) return;
   // Get all of the items currently in the cart from storage
